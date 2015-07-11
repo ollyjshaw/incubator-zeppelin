@@ -96,7 +96,8 @@ public class RemoteSchedulerTest {
             new HashMap<String, Object>(),
             new GUI(),
             new AngularObjectRegistry(intpGroup.getId(), null),
-            new LinkedList<InterpreterContextRunner>()));
+            new LinkedList<InterpreterContextRunner>(),
+            "workbook"));
         return "1000";
       }
 

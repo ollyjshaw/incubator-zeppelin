@@ -78,7 +78,7 @@ public class SparkInterpreterTest {
     context = new InterpreterContext("id", "title", "text",
         new HashMap<String, Object>(), new GUI(), new AngularObjectRegistry(
             intpGroup.getId(), null),
-        new LinkedList<InterpreterContextRunner>());
+        new LinkedList<InterpreterContextRunner>(), "workbook");
   }
 
   @After

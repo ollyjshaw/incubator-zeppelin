@@ -69,6 +69,7 @@ public class Note implements Serializable, JobListener {
    * - cron : cron expression validity.
    */
   private Map<String, Object> info = new HashMap<String, Object>();
+  private String workbook = "demo"; //TODO(shaolive) make this a real value
 
 
   public Note() {}
@@ -347,4 +348,11 @@ public class Note implements Serializable, JobListener {
   @Override
   public void onProgressUpdate(Job job, int progress) {}
 
+  public String getWorkbook() {
+    return workbook;
+  }
+
+  public void setWorkbook(String workbook) {
+    this.workbook = workbook;
+  }
 }

@@ -1,7 +1,7 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n## Welcome to Zeppelin.\n##### This is a live tutorial, you can run the code yourself. (Shift-Enter to Run)",
+      "text": "%md\n## Welcome to Zeppelin.\n##### This is a live tutorial, you can run the code dddddd. (Shift-Enter to Run)",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -13,7 +13,7 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -24,11 +24,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eWelcome to Zeppelin.\u003c/h2\u003e\n\u003ch5\u003eThis is a live tutorial, you can run the code yourself. (Shift-Enter to Run)\u003c/h5\u003e\n"
+        "msg": "\u003ch2\u003eWelcome to Zeppelin.\u003c/h2\u003e\n\u003ch5\u003eThis is a live tutorial, you can run the code dddddd. (Shift-Enter to Run)\u003c/h5\u003e\n"
       },
       "dateCreated": "Feb 13, 2015 11:16:21 PM",
-      "dateStarted": "Apr 1, 2015 9:11:09 PM",
-      "dateFinished": "Apr 1, 2015 9:11:10 PM",
+      "dateStarted": "Jul 10, 2015 4:57:26 PM",
+      "dateFinished": "Jul 10, 2015 4:57:26 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -46,7 +46,8 @@
           "groups": [],
           "scatter": {}
         },
-        "title": true
+        "title": true,
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -100,7 +101,8 @@
               "aggr": "sum"
             }
           }
-        }
+        },
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -154,7 +156,8 @@
               "aggr": "sum"
             }
           }
-        }
+        },
+        "editorHide": false
       },
       "settings": {
         "params": {
@@ -216,7 +219,8 @@
               "aggr": "sum"
             }
           }
-        }
+        },
+        "editorHide": false
       },
       "settings": {
         "params": {
@@ -267,7 +271,7 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -299,7 +303,7 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -319,7 +323,19 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": false
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -333,9 +349,11 @@
   ],
   "name": "Zeppelin Tutorial",
   "id": "2A94M5J1Z",
+  "workbook" : "mega",
   "angularObjects": {},
   "config": {
     "looknfeel": "default"
   },
-  "info": {}
+  "info": {},
+  "workbook": "demo"
 }

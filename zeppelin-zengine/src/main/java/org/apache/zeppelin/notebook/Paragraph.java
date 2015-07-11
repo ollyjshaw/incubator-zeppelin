@@ -239,7 +239,8 @@ public class Paragraph extends Job implements Serializable {
             this.getConfig(),
             this.settings,
             registry,
-            runners);
+            runners,
+            this.getNote().getWorkbook());
     return interpreterContext;
   }
 

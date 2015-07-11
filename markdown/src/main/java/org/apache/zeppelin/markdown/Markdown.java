@@ -58,6 +58,7 @@ public class Markdown extends Interpreter {
 
   @Override
   public InterpreterResult interpret(String st, InterpreterContext interpreterContext) {
+    System.out.println("Workbook is " + interpreterContext.getWorkbook());
     String html;
     try {
       html = md.process(st);

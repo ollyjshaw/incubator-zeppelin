@@ -28,6 +28,7 @@ import org.apache.zeppelin.display.GUI;
  */
 public class InterpreterContext {
   private final String paragraphTitle;
+  private final String workbook;
   private final String paragraphId;
   private final String paragraphText;
   private final Map<String, Object> config;
@@ -41,9 +42,11 @@ public class InterpreterContext {
                             Map<String, Object> config,
                             GUI gui,
                             AngularObjectRegistry angularObjectRegistry,
-                            List<InterpreterContextRunner> runners
+                            List<InterpreterContextRunner> runners,
+                            String workbook
                             ) {
     this.paragraphId = paragraphId;
+    this.workbook = workbook;
     this.paragraphTitle = paragraphTitle;
     this.paragraphText = paragraphText;
     this.config = config;
@@ -52,13 +55,11 @@ public class InterpreterContext {
     this.runners = runners;
   }
 
-  public String getParagraphId() {
-    return paragraphId;
-  }
+  public String getWorkbook() { return workbook; }
 
-  public String getParagraphText() {
-    return paragraphText;
-  }
+  public String getParagraphId() { return paragraphId; }
+
+  public String getParagraphText() { return paragraphText; }
 
   public String getParagraphTitle() {
     return paragraphTitle;
